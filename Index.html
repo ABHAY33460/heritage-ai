@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heritage AI</title>
+  <meta name="description" content="Heritage AI - Discover and explore Indian heritage, monuments, and history powered by AI.">
+  <meta name="keywords" content="Heritage AI, Indian Monuments, History AI, Abhay Heritage AI">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      background-color: #030712;
+      color: #ffffff;
+      min-height: 100vh;
+      padding: 16px;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      margin-bottom: 48px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-icon {
+      font-size: 26px;
+    }
+    .logo-text {
+      font-size: 22px;
+      font-weight: 700;
+      color: #ff9900;
+    }
+    .btn-primary {
+      background-color: #ff9900;
+      color: #000000;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .hero-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid #ff990040;
+      background-color: #1a1200;
+      color: #ffb74d;
+      padding: 8px 18px;
+      border-radius: 25px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      margin-bottom: 32px;
+      text-transform: uppercase;
+    }
+    .hero-title {
+      font-size: 38px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      color: #ffffff;
+    }
+    .highlight {
+      color: #ffb74d;
+    }
+    .hero-subtitle {
+      color: #9aa0a6;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 36px;
+      padding: 0 10px;
+    }
+    .search-box {
+      position: relative;
+      width: 100%;
+      margin-bottom: 36px;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 18px 65px 18px 20px;
+      background-color: #0a0f1d;
+      border: 1px solid #1e293b;
+      border-radius: 14px;
+      color: #9aa0a6;
+      font-size: 15px;
+      outline: none;
+    }
+    .action-btn {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #ff9900;
+      border: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .feature-list {
+      list-style-type: disc;
+      list-style-position: inside;
+      color: #64748b;
+      font-family: monospace;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">🏛️</span>
+      <span class="logo-text">Heritage AI</span>
+    </div>
+    <button class="btn-primary">Explore India</button>
+  </header>
+
+  <main class="hero-container">
+    <div class="badge">
+      <span>✨ INDIA HERITAGE HUB ACTIVE</span>
+    </div>
+
+    <h1 class="hero-title">
+      The World's <span class="highlight">History</span>,<br>
+      Decoded by <span class="highlight">AI</span>.
+    </h1>
+
+    <p class="hero-subtitle">
+      Don't just look at history—interact with it. Ask questions, slide through centuries with TimeLens, and discover thousands of monuments across India.
+    </p>
+
+    <div class="search-box">
+      <input type="text" value="Ask Heritage AI... 'What did the Rec..." readonly>
+      <button class="action-btn">⚡</button>
+    </div>
+
+    <ul class="feature-list">
+      <li>1,000+ Indian Monuments Mapped</li>
+      <li>5,000+ Years of History</li>
+      <li>Architecture, Timelines & Stories</li>
+    </ul>
+  </main>
+</body>
+</html>
